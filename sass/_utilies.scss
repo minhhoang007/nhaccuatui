@@ -1,0 +1,21 @@
+.flex-box {
+    display: flex;
+}
+.flex-grow {
+    flex-grow: 1;
+    justify-content: start;
+}
+
+.mg-top {
+    margin-top: 5px;
+}
+
+.mg-bottom {
+    margin-bottom: .5rem;
+}
+.mg-left-0 {
+    margin-left: 0;
+}
+.mg-right-0 {
+    margin-right: 0;
+}

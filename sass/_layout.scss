@@ -1,0 +1,35 @@
+.container {
+    // padding: 0 20.5rem;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    max-width: 117rem;
+}
+hr {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+.header {
+    background-color: #fff;
+
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+
+
+    &__left {
+        background-color: grey;
+        width: 84rem;
+        margin-right: 3rem;
+    }
+    &__right {
+        background-color: greenyellow;
+        width: 30rem;
+    }
+}
+
+footer {
+    background-color: rgb(28, 159, 192);
+}
