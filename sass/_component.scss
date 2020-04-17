@@ -479,3 +479,48 @@
     }
 }
 // col-end
+//song-start
+.song {
+    display: flex;
+
+    &__left {
+        flex: 1;
+    }
+    &__right {
+        width: 41rem;
+        margin-left: 2rem;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #7a737373;
+        padding: 1rem 0;
+        cursor: pointer;
+    }
+    &__img {
+        width: 6rem;
+        height: 6rem;
+    }
+    &__word {
+        flex: 1;
+        margin-left: 1rem;
+        text-transform: capitalize;
+        color: #302f2fa8;
+    }
+
+    &__sub {
+        opacity: .7;
+    }
+
+    &__title:hover, &__sub:hover {
+        color: #4F9ED9;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+       
+    }
+}
+//song-end

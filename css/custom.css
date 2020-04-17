@@ -395,6 +395,35 @@ footer {
     font-weight: 500;
     text-transform: capitalize; }
 
+.song {
+  display: flex; }
+  .song__left {
+    flex: 1; }
+  .song__right {
+    width: 41rem;
+    margin-left: 2rem; }
+  .song__content {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #7a737373;
+    padding: 1rem 0;
+    cursor: pointer; }
+  .song__img {
+    width: 6rem;
+    height: 6rem; }
+  .song__word {
+    flex: 1;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    color: #302f2fa8; }
+  .song__sub {
+    opacity: .7; }
+  .song__title:hover, .song__sub:hover {
+    color: #4F9ED9; }
+  .song__icon {
+    display: flex;
+    align-items: center; }
+
 .flex-box {
   display: flex; }
 
