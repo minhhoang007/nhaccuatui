@@ -17,8 +17,14 @@
     margin-left: 0;
 }
 .mg-right-0 {
-    margin-right: 0;
+    margin-right: 0 !important;
 }
 .mg-left-20 {
     margin-right: 2rem;
+}
+.mg-top-1 {
+    margin-top: -1px;
+}
+.mg-bottom-0 {
+    margin-bottom: 0 !important;
 }

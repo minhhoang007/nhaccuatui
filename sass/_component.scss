@@ -14,6 +14,7 @@
         margin: 0 1rem;
         
     }
+
     &__item {
         text-decoration: none;
         color: rgba(0, 0, 0, 0.6);
@@ -21,7 +22,9 @@
         font-weight: 700;
     }
 
-
+    &__item:hover {
+        color: #4F9ED9;
+    }
 
     &__input {
         padding: 1rem;
@@ -142,3 +145,99 @@
 
 }
 // =======slide-right - end=============
+// <!-- Listen-today-start -->
+.listen {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+    & > * {
+        color: #61ADED;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-right: 1rem;
+    }
+    &__subtitle {
+        font-size: 3rem;
+    }
+}
+
+.listenComp {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        
+        width: 15.4rem;
+    }
+    &__container:not(:last-child) {
+        margin-right: 1.75rem;
+        margin-bottom: 2rem;
+    }
+
+    &__content {
+        position: relative;
+       
+    }
+
+    &__img {
+        width: 15.4rem;
+        height: 15.4rem;
+        cursor: pointer;
+    }
+
+    &__listen {
+        display: flex;
+        align-items: center;
+        background-color: rgba(116, 111, 111, 0.349);
+
+        position: absolute;
+        left: 91px;
+        top: 0;
+        z-index: 10;
+    }
+
+    &__title {
+        font-weight:500 ;
+        text-transform: capitalize;
+    }
+    &__subtitle {
+        opacity: .8;
+        text-transform: capitalize;
+    }
+
+   &__play {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #a09c9c5e;
+        z-index: 9;
+        width: 15.4rem; 
+        height: 15.4rem; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity .5s;
+        cursor: pointer;
+   }
+
+   &__play:hover {
+       opacity: 1;
+   }
+
+   &__fa {
+    color: white;
+    font-size: 4rem !important;
+   }
+
+
+}
+
+
+// <!-- Listen-today-end -->

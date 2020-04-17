@@ -38,7 +38,6 @@ hr {
 .content {
   display: flex; }
   .content__left {
-    background-color: grey;
     width: 84rem;
     margin-right: 3rem; }
   .content__right {
@@ -62,6 +61,8 @@ footer {
     color: rgba(0, 0, 0, 0.6);
     font-size: 1.4rem;
     font-weight: 700; }
+  .nav__item:hover {
+    color: #4F9ED9; }
   .nav__input {
     padding: 1rem;
     border-radius: .5rem 0 0 .5rem;
@@ -149,6 +150,70 @@ footer {
     padding-bottom: 1rem !important;
     opacity: .7; }
 
+.listen {
+  background-color: #fff;
+  display: flex;
+  align-items: center; }
+  .listen > * {
+    color: #61ADED; }
+  .listen__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 1rem; }
+  .listen__subtitle {
+    font-size: 3rem; }
+
+.listenComp {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; }
+  .listenComp__container {
+    display: flex;
+    flex-direction: column;
+    width: 15.4rem; }
+  .listenComp__container:not(:last-child) {
+    margin-right: 1.75rem;
+    margin-bottom: 2rem; }
+  .listenComp__content {
+    position: relative; }
+  .listenComp__img {
+    width: 15.4rem;
+    height: 15.4rem;
+    cursor: pointer; }
+  .listenComp__listen {
+    display: flex;
+    align-items: center;
+    background-color: rgba(116, 111, 111, 0.349);
+    position: absolute;
+    left: 91px;
+    top: 0;
+    z-index: 10; }
+  .listenComp__title {
+    font-weight: 500;
+    text-transform: capitalize; }
+  .listenComp__subtitle {
+    opacity: .8;
+    text-transform: capitalize; }
+  .listenComp__play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a09c9c5e;
+    z-index: 9;
+    width: 15.4rem;
+    height: 15.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .5s;
+    cursor: pointer; }
+  .listenComp__play:hover {
+    opacity: 1; }
+  .listenComp__fa {
+    color: white;
+    font-size: 4rem !important; }
+
 .flex-box {
   display: flex; }
 
@@ -166,7 +231,13 @@ footer {
   margin-left: 0; }
 
 .mg-right-0 {
-  margin-right: 0; }
+  margin-right: 0 !important; }
 
 .mg-left-20 {
   margin-right: 2rem; }
+
+.mg-top-1 {
+  margin-top: -1px; }
+
+.mg-bottom-0 {
+  margin-bottom: 0 !important; }
