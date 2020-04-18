@@ -36,6 +36,12 @@
 .mg-top-20 {
     margin-top: 2rem;
 }
+ .pd-bottom-0 {
+     padding-bottom: 0;
+ }
+
+//////////colors
+
 .color-orang {color: #E74C3C;}
 
 .color-green {
@@ -52,4 +58,15 @@
 
 .bg-color-0 {
     background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.line-100 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    opacity: .5;
+    background-color: rgb(138, 133, 133);
+}
+
+.pd-bottom-2 {
+    padding-bottom: 2.5rem;
 }

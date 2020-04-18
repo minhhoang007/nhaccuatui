@@ -702,3 +702,118 @@
     }
 } 
 // topme end
+// top-100-start
+.top100 {
+    border-bottom: 1px solid #56ABED;
+    margin-bottom: 3rem;
+    position: relative;
+
+    &__comp1 {
+        // height: 8.5rem;
+        width: 30rem;
+        background-color: #56ABED;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        color:white;
+        font-size: 2.2rem;
+        line-height: 22px;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    &__absolute {
+        position: absolute;
+        top: -2.5rem;
+        right: -2.5rem;
+        z-index: 5;
+    }
+    &__line {
+        height: 1px;
+        width: 4.3rem;
+        background-color: #fff;
+        margin: 5px;
+        margin-top: 1.5rem;
+        opacity: .5;
+    }
+    &__word {
+        display: flex;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    &__comp2 {
+        padding: 1.5rem;
+        border: 1px solid #56ABED;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    &__content {
+        display: flex;
+        position: relative;
+  
+    }
+    &__content--img {
+        width: 6rem;
+        height: 6rem;
+        margin-right: 1rem;
+        
+    }
+    &__cover{
+        width: 6rem;
+        background-color: rgba(83, 80, 80, 0.76);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 1s;
+    }
+    &__cover:hover {
+        opacity: 1;
+    }
+    &__cover::after {
+        content: "";
+        background-color: transparent;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 4rem;
+        position: absolute;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    &__fa {
+        color: white;
+        z-index: 7;
+        cursor: pointer;
+    }
+    &__sub {
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+    &__note {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: #56ABED;
+    }
+
+    &__notes {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0px 5px;
+    }
+}
+// top-100-end

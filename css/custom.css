@@ -554,6 +554,96 @@ footer {
     width: 11rem;
     height: 6.2rem; }
 
+.top100 {
+  border-bottom: 1px solid #56ABED;
+  margin-bottom: 3rem;
+  position: relative; }
+  .top100__comp1 {
+    width: 30rem;
+    background-color: #56ABED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+  .top100__title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: 1rem; }
+  .top100__absolute {
+    position: absolute;
+    top: -2.5rem;
+    right: -2.5rem;
+    z-index: 5; }
+  .top100__line {
+    height: 1px;
+    width: 4.3rem;
+    background-color: #fff;
+    margin: 5px;
+    margin-top: 1.5rem;
+    opacity: .5; }
+  .top100__word {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem; }
+  .top100__comp2 {
+    padding: 1.5rem;
+    border: 1px solid #56ABED;
+    border-bottom: none;
+    border-top: none; }
+  .top100__content {
+    display: flex;
+    position: relative; }
+  .top100__content--img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 1rem; }
+  .top100__cover {
+    width: 6rem;
+    background-color: rgba(83, 80, 80, 0.76);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s; }
+  .top100__cover:hover {
+    opacity: 1; }
+  .top100__cover::after {
+    content: "";
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    position: absolute;
+    border: 1px solid white;
+    cursor: pointer; }
+  .top100__fa {
+    color: white;
+    z-index: 7;
+    cursor: pointer; }
+  .top100__sub {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.4rem; }
+  .top100__note {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #56ABED; }
+  .top100__notes {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0px 5px; }
+
 .flex-box {
   display: flex; }
 
@@ -588,6 +678,9 @@ footer {
 .mg-top-20 {
   margin-top: 2rem; }
 
+.pd-bottom-0 {
+  padding-bottom: 0; }
+
 .color-orang {
   color: #E74C3C; }
 
@@ -604,3 +697,12 @@ footer {
 
 .bg-color-0 {
   background-color: rgba(255, 255, 255, 0) !important; }
+
+.line-100 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  opacity: .5;
+  background-color: #8a8585; }
+
+.pd-bottom-2 {
+  padding-bottom: 2.5rem; }
